@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Business Card | Meno Taksi</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #e0e0e0; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; flex-direction: column; gap: 30px; }
+        .card { width: 400px; height: 225px; background: #121212; border-radius: 10px; box-shadow: 0 15px 30px rgba(0,0,0,0.3); position: relative; overflow: hidden; color: #fff; padding: 30px; box-sizing: border-box; }
+        .card::before { content: ''; position: absolute; top: 0; left: 0; width: 10px; height: 100%; background: #ffd700; }
+        
+        .card-front { display: flex; flex-direction: column; justify-content: space-between; height: 100%; }
+        .logo-area { display: flex; align-items: center; gap: 15px; }
+        .logo-area img { width: 50px; height: 50px; border-radius: 6px; }
+        .brand-name { font-size: 1.5rem; font-weight: 700; color: #fff; }
+        .brand-sub { font-size: 0.8rem; color: #ffd700; text-transform: uppercase; letter-spacing: 2px; }
+        
+        .contact-info { display: flex; flex-direction: column; gap: 8px; font-size: 0.9rem; color: #ccc; }
+        .contact-info div { display: flex; align-items: center; gap: 10px; }
+        .contact-info i { color: #ffd700; width: 16px; }
+
+        .card-back { display: flex; justify-content: center; align-items: center; flex-direction: column; background: #0a0a0a; }
+        .card-back img { width: 80px; height: 80px; border-radius: 12px; margin-bottom: 15px; }
+        .qr-placeholder { margin-top: 15px; width: 60px; height: 60px; background: #fff; display: flex; justify-content: center; align-items: center; border-radius: 4px; color: #000; font-size: 0.6rem; font-weight: bold; text-align: center; }
+    </style>
+</head>
+<body>
+    <h2>Business Card Design - Front & Back (Printable)</h2>
+    <!-- Front -->
+    <div class="card card-front">
+        <div class="logo-area">
+            <img src="logo.png" alt="Logo">
+            <div>
+                <div class="brand-name">Meno Taksi</div>
+                <div class="brand-sub">Premium Ride Service</div>
+            </div>
+        </div>
+        <div class="contact-info">
+            <div><i class="fas fa-phone"></i> 030 207 2285</div>
+            <div><i class="fab fa-whatsapp"></i> WhatsApp Booking Available</div>
+            <div><i class="fas fa-envelope"></i> info@menotaksi.nl</div>
+            <div><i class="fas fa-globe"></i> www.menotaksi.nl</div>
+        </div>
+    </div>
+
+    <!-- Back -->
+    <div class="card card-back">
+        <img src="logo.png" alt="Logo">
+        <div class="brand-name">Meno Taksi</div>
+        <div class="qr-placeholder">Scan to<br>WhatsApp</div>
+    </div>
+</body>
+</html>

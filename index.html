@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meno Taksi | Premium Ride Service</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-content">
+            <div class="logo">
+                <img src="logo.png" alt="Meno Taksi Logo">
+                <span class="logo-text">Meno Taksi</span>
+            </div>
+            <nav class="nav">
+                <a href="#home" data-i18n="nav_home">Home</a>
+                <a href="#services" data-i18n="nav_services">Diensten</a>
+                <a href="#prices" data-i18n="nav_prices">Prijzen</a>
+                <a href="#contact" data-i18n="nav_contact">Contact</a>
+            </nav>
+            <div class="lang-switcher">
+                <button id="lang-nl" class="active">NL</button>
+                <button id="lang-en">EN</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 data-i18n="hero_title">Betrouwbaar. Snel. Premium.</h1>
+                <p data-i18n="hero_subtitle">Uw vertrouwde taxi service in en rond Utrecht.</p>
+                <a href="https://wa.me/31302072285?text=Hallo%2C%20ik%20wil%20graag%20een%20taxi%20bestellen." target="_blank" class="cta-button">
+                    <i class="fab fa-whatsapp"></i> <span data-i18n="hero_button">Boek via WhatsApp</span>
+                </a>
+            </div>
+        </section>
+
+        <section id="services" class="services-section container">
+            <h2 class="section-title" data-i18n="services_title">Onze Diensten</h2>
+            <p class="section-subtitle" data-i18n="services_subtitle">Wat wij u kunnen bieden</p>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-plane-departure"></i>
+                    <h3 data-i18n="service_airport">Luchthaven Vervoer</h3>
+                    <p data-i18n="service_airport_desc">Comfortabel en op tijd naar Schiphol en andere luchthavens.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-user-tie"></i>
+                    <h3 data-i18n="service_business">Zakelijk Vervoer</h3>
+                    <p data-i18n="service_business_desc">Stijlvol vervoer voor uw zakelijke afspraken.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-car"></i>
+                    <h3 data-i18n="service_regular">Reguliere Ritten</h3>
+                    <p data-i18n="service_regular_desc">Veilig en betrouwbaar vervoer binnen en buiten Utrecht.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-users"></i>
+                    <h3 data-i18n="service_group">Groepsvervoer</h3>
+                    <p data-i18n="service_group_desc">Ruime taxibussen voor groepen en evenementen.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="prices" class="prices-section container">
+            <h2 class="section-title" data-i18n="prices_title">Vaste Prijzen</h2>
+            <p class="section-subtitle" data-i18n="prices_subtitle">Transparante tarieven voor populaire bestemmingen</p>
+            
+            <div class="price-cards">
+                <div class="price-card">
+                    <div class="route">Utrecht <i class="fas fa-arrow-right"></i> Schiphol Airport</div>
+                    <div class="price">€70</div>
+                </div>
+                <div class="price-card">
+                    <div class="route">Utrecht <i class="fas fa-arrow-right"></i> Amsterdam Centrum</div>
+                    <div class="price">€85</div>
+                </div>
+                <div class="price-card">
+                    <div class="route">Utrecht <i class="fas fa-arrow-right"></i> Rotterdam Airport</div>
+                    <div class="price">€90</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container contact-content">
+                <div class="contact-info">
+                    <h2 data-i18n="contact_title">Neem Contact Op</h2>
+                    <p><i class="fas fa-map-marker-alt"></i> Utrecht, Nederland</p>
+                    <p><i class="fas fa-phone"></i> <a href="tel:0302072285" style="color:var(--gray-text); text-decoration:none;">030 207 2285</a></p>
+                    <p><i class="fas fa-envelope"></i> info@menotaksi.nl</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 Meno Taksi. <span data-i18n="footer_rights">Alle rechten voorbehouden.</span></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -54,9 +54,8 @@ body {
 
 .logo img {
     height: 50px;
-    width: 50px;
-    object-fit: cover;
-    border-radius: 8px;
+    width: auto;
+    object-fit: contain;
 }
 
 .logo-text {
@@ -163,6 +162,7 @@ body {
     border-radius: 12px;
     border: 1px solid var(--border-color);
     transition: transform 0.3s, border-color 0.3s;
+    cursor: pointer;
 }
 
 .service-card:hover {
@@ -184,6 +184,61 @@ body {
 
 .service-card p {
     color: var(--gray-text);
+}
+
+/* Modal Styles */
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1000; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.8); 
+    backdrop-filter: blur(5px);
+}
+
+.modal-content {
+    background-color: var(--card-bg);
+    margin: 10% auto; 
+    padding: 40px;
+    border: 1px solid var(--border-color);
+    width: 80%; 
+    max-width: 600px;
+    border-radius: 12px;
+    position: relative;
+    color: var(--light-text);
+}
+
+.close-modal {
+    color: var(--gray-text);
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.close-modal:hover,
+.close-modal:focus {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+#modal-title {
+    color: var(--primary-color);
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#modal-body {
+    color: var(--gray-text);
+    font-size: 1.1rem;
+    line-height: 1.8;
 }
 
 .prices-section {

@@ -43,17 +43,17 @@
             <h2 class="section-title" data-i18n="services_title">Onze Diensten</h2>
             <p class="section-subtitle" data-i18n="services_subtitle">Wat wij u kunnen bieden</p>
             <div class="services-grid">
-                <div class="service-card">
+                <div class="service-card" data-service="airport">
                     <i class="fas fa-plane-departure"></i>
                     <h3 data-i18n="service_airport">Luchthaven Vervoer</h3>
                     <p data-i18n="service_airport_desc">Comfortabel en op tijd naar Schiphol en andere luchthavens.</p>
                 </div>
-                <div class="service-card">
+                <div class="service-card" data-service="business">
                     <i class="fas fa-user-tie"></i>
                     <h3 data-i18n="service_business">Zakelijk Vervoer</h3>
                     <p data-i18n="service_business_desc">Stijlvol vervoer voor uw zakelijke afspraken.</p>
                 </div>
-                <div class="service-card">
+                <div class="service-card" data-service="regular">
                     <i class="fas fa-car"></i>
                     <h3 data-i18n="service_regular">Reguliere Ritten</h3>
                     <p data-i18n="service_regular_desc">Veilig en betrouwbaar vervoer binnen en buiten Utrecht.</p>
@@ -102,11 +102,20 @@
                 <div class="contact-info">
                     <h2 data-i18n="contact_title">Neem Contact Op</h2>
                     <p><i class="fas fa-map-marker-alt"></i> Utrecht, Nederland</p>
-                    <p><i class="fas fa-phone"></i> <a href="tel:0302072285" style="color:var(--gray-text); text-decoration:none;">030 207 2285</a></p>
+                    <p><i class="fas fa-phone"></i> <a href="tel:+31302072285" style="color:var(--gray-text); text-decoration:none;">+31 30 207 2285</a></p>
                     <p><i class="fas fa-envelope"></i> info@menotaxi.nl</p>
                 </div>
             </div>
         </section>
+
+        <!-- Service Detail Modal -->
+        <div id="service-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <h3 id="modal-title">Title</h3>
+                <div id="modal-body" class="modal-body">Description</div>
+            </div>
+        </div>
     </main>
 
     <footer>

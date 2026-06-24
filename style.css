@@ -202,29 +202,40 @@ body {
     margin-bottom: 50px;
 }
 
+.price-category {
+    font-size: 1.8rem;
+    color: var(--light-text);
+    margin: 40px 0 20px;
+    text-align: left;
+    border-left: 4px solid var(--primary-color);
+    padding-left: 15px;
+}
+
 .price-cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
 }
 
 .price-card {
     background-color: var(--card-bg);
-    padding: 40px;
+    padding: 25px 20px;
     border-radius: 12px;
     border: 1px solid var(--border-color);
     transition: transform 0.3s, border-color 0.3s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .price-card:hover {
-    transform: translateY(-10px);
+    transform: translateY(-5px);
     border-color: var(--primary-color);
 }
 
 .route {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 600;
-    margin-bottom: 20px;
 }
 
 .route i {
@@ -233,7 +244,7 @@ body {
 }
 
 .price {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     font-weight: 700;
     color: var(--primary-color);
 }

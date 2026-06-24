@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meno Taksi | Premium Ride Service</title>
+    <title>Meno Taxi | Premium Ride Service</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -12,13 +12,13 @@
     <header class="header">
         <div class="container header-content">
             <div class="logo">
-                <img src="logo.png" alt="Meno Taksi Logo">
-                <span class="logo-text">Meno Taksi</span>
+                <img src="logo.png" alt="Meno Taxi Logo">
+                <span class="logo-text">Meno Taxi</span>
             </div>
             <nav class="nav">
                 <a href="#home" data-i18n="nav_home">Home</a>
                 <a href="#services" data-i18n="nav_services">Diensten</a>
-                <a href="#prices" data-i18n="nav_prices">Prijzen</a>
+                <a href="#prices" data-i18n="nav_prices">Tarieven</a>
                 <a href="#contact" data-i18n="nav_contact">Contact</a>
             </nav>
             <div class="lang-switcher">
@@ -58,31 +58,42 @@
                     <h3 data-i18n="service_regular">Reguliere Ritten</h3>
                     <p data-i18n="service_regular_desc">Veilig en betrouwbaar vervoer binnen en buiten Utrecht.</p>
                 </div>
-                <div class="service-card">
-                    <i class="fas fa-users"></i>
-                    <h3 data-i18n="service_group">Groepsvervoer</h3>
-                    <p data-i18n="service_group_desc">Ruime taxibussen voor groepen en evenementen.</p>
-                </div>
             </div>
         </section>
 
         <section id="prices" class="prices-section container">
             <h2 class="section-title" data-i18n="prices_title">Vaste Prijzen</h2>
-            <p class="section-subtitle" data-i18n="prices_subtitle">Transparante tarieven voor populaire bestemmingen</p>
+            <p class="section-subtitle" data-i18n="prices_subtitle">Transparante tarieven voor populaire bestemmingen (Max 4 personen)</p>
             
+            <h3 class="price-category">Regiovervoer (Van / Naar Utrecht)</h3>
             <div class="price-cards">
-                <div class="price-card">
-                    <div class="route">Utrecht <i class="fas fa-arrow-right"></i> Schiphol Airport</div>
-                    <div class="price">€70</div>
-                </div>
-                <div class="price-card">
-                    <div class="route">Utrecht <i class="fas fa-arrow-right"></i> Amsterdam Centrum</div>
-                    <div class="price">€85</div>
-                </div>
-                <div class="price-card">
-                    <div class="route">Utrecht <i class="fas fa-arrow-right"></i> Rotterdam Airport</div>
-                    <div class="price">€90</div>
-                </div>
+                <div class="price-card"><div class="route">Bilthoven</div><div class="price">€39,50</div></div>
+                <div class="price-card"><div class="route">De Bilt</div><div class="price">€39,50</div></div>
+                <div class="price-card"><div class="route">De Meern</div><div class="price">€39,50</div></div>
+                <div class="price-card"><div class="route">Houten</div><div class="price">€39,50</div></div>
+                <div class="price-card"><div class="route">IJsselstein</div><div class="price">€39,50</div></div>
+                <div class="price-card"><div class="route">Leidsche Rijn</div><div class="price">€39,50</div></div>
+                <div class="price-card"><div class="route">Maarssen</div><div class="price">€39,50</div></div>
+                <div class="price-card"><div class="route">Nieuwegein</div><div class="price">€39,50</div></div>
+                <div class="price-card"><div class="route">Vleuten</div><div class="price">€39,50</div></div>
+                <div class="price-card"><div class="route">Zeist</div><div class="price">€39,50</div></div>
+            </div>
+
+            <h3 class="price-category" style="margin-top: 40px;">Utrecht - Luchthavens</h3>
+            <div class="price-cards">
+                <div class="price-card"><div class="route">Schiphol Airport</div><div class="price">€79,00</div></div>
+                <div class="price-card"><div class="route">Rotterdam Airport</div><div class="price">€120,00</div></div>
+                <div class="price-card"><div class="route">Eindhoven Airport</div><div class="price">€150,00</div></div>
+                <div class="price-card"><div class="route">Weeze Flughaven</div><div class="price">€275,00</div></div>
+                <div class="price-card"><div class="route">Dusseldorf Flughaven</div><div class="price">€375,00</div></div>
+                <div class="price-card"><div class="route">Vliegveld Zaventem</div><div class="price">€375,00</div></div>
+            </div>
+
+            <h3 class="price-category" style="margin-top: 40px;">Meter Tarieven (1 t/m 4 Personen)</h3>
+            <div class="price-cards">
+                <div class="price-card"><div class="route">Start Tarief</div><div class="price">€3,95</div></div>
+                <div class="price-card"><div class="route">Tarief per km</div><div class="price">€3,05</div></div>
+                <div class="price-card"><div class="route">Tijd Tarief (per minuut)</div><div class="price">€0,50</div></div>
             </div>
         </section>
 
@@ -92,7 +103,7 @@
                     <h2 data-i18n="contact_title">Neem Contact Op</h2>
                     <p><i class="fas fa-map-marker-alt"></i> Utrecht, Nederland</p>
                     <p><i class="fas fa-phone"></i> <a href="tel:0302072285" style="color:var(--gray-text); text-decoration:none;">030 207 2285</a></p>
-                    <p><i class="fas fa-envelope"></i> info@menotaksi.nl</p>
+                    <p><i class="fas fa-envelope"></i> info@menotaxi.nl</p>
                 </div>
             </div>
         </section>
@@ -100,7 +111,7 @@
 
     <footer>
         <div class="container footer-content">
-            <p>&copy; 2026 Meno Taksi. <span data-i18n="footer_rights">Alle rechten voorbehouden.</span></p>
+            <p>&copy; 2026 Meno Taxi. <span data-i18n="footer_rights">Alle rechten voorbehouden.</span></p>
         </div>
     </footer>
 

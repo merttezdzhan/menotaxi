@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Klachtenregeling | Meno Taxi</title>
+    <meta name="description" content="Klachtenregeling van Meno Taxi Utrecht.">
+    <link rel="stylesheet" href="style.css?v=3">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .legal-page {
+            padding: 120px 20px 80px;
+            max-width: 860px;
+            margin: 0 auto;
+        }
+        .legal-page h1 {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 32px;
+        }
+        .legal-block {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 30px 36px;
+            margin-bottom: 24px;
+        }
+        .legal-block h2 {
+            font-size: 1.25rem;
+            color: var(--primary-color);
+            margin-bottom: 14px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .legal-block p {
+            color: var(--gray-text);
+            font-size: 1rem;
+            line-height: 1.8;
+            margin-bottom: 10px;
+        }
+        .legal-block p:last-child { margin-bottom: 0; }
+        .contact-highlight {
+            background: linear-gradient(135deg, #1a1a2e, #2a2a4e);
+            border: 1px solid var(--primary-color);
+            border-radius: 10px;
+            padding: 20px 28px;
+            margin-top: 14px;
+        }
+        .contact-highlight p {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            color: var(--light-text) !important;
+            font-weight: 600;
+            margin-bottom: 8px !important;
+        }
+        .contact-highlight p i {
+            color: var(--primary-color);
+            width: 20px;
+        }
+        .contact-highlight p:last-child { margin-bottom: 0 !important; }
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 600;
+            margin-bottom: 30px;
+            transition: opacity 0.2s;
+        }
+        .back-link:hover { opacity: 0.75; }
+        .commission-link {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .commission-link:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container header-content">
+            <div class="logo">
+                <img src="logo.png" alt="Meno Taxi Logo">
+                <span class="logo-text">Meno Taxi</span>
+            </div>
+            <nav class="nav">
+                <a href="index.html">Home</a>
+                <a href="index.html#about">Over Ons</a>
+                <a href="index.html#services">Diensten</a>
+                <a href="index.html#prices">Tarieven</a>
+                <a href="index.html#contact">Contact</a>
+                <a href="privacyverklaring.html" style="color: var(--primary-color);">Privacyverklaring (AVG)</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="legal-page">
+            <a href="index.html" class="back-link"><i class="fas fa-arrow-left"></i> Terug naar Home</a>
+            <h1>Klachtenregeling</h1>
+
+            <div class="legal-block">
+                <h2><i class="fas fa-star"></i> Onze belofte</h2>
+                <p>Meno Taxi streeft naar een veilige, comfortabele en professionele dienstverlening.</p>
+                <p>Heeft u een klacht over een rit of onze dienstverlening? Neem dan contact met ons op via:</p>
+                <div class="contact-highlight">
+                    <p><i class="fas fa-envelope"></i> info@menotaxi.nl</p>
+                    <p><i class="fas fa-phone"></i> +31 30 207 2285</p>
+                </div>
+            </div>
+
+            <div class="legal-block">
+                <h2><i class="fas fa-file-alt"></i> Hoe dient u een klacht in?</h2>
+                <p>Wij verzoeken u uw klacht zo volledig mogelijk te omschrijven, inclusief:</p>
+                <ul style="color: var(--gray-text); padding-left: 22px; line-height: 1.9; margin-top:8px;">
+                    <li>Datum en tijdstip van de rit</li>
+                    <li>Ophaal- en afzetlocatie</li>
+                    <li>Een duidelijke beschrijving van de klacht</li>
+                    <li>Eventuele ritgegevens of bevestiging</li>
+                </ul>
+            </div>
+
+            <div class="legal-block">
+                <h2><i class="fas fa-handshake"></i> Behandeling van uw klacht</h2>
+                <p>Meno Taxi zal iedere klacht binnen een redelijke termijn behandelen en proberen samen met de klant tot een passende oplossing te komen.</p>
+                <p>Wij nemen uw feedback serieus en gebruiken dit om onze dienstverlening continu te verbeteren.</p>
+            </div>
+
+            <div class="legal-block">
+                <h2><i class="fas fa-balance-scale"></i> Geschillencommissie</h2>
+                <p>Indien een klacht niet naar tevredenheid wordt opgelost, kan de klant zich wenden tot De Geschillencommissie Taxivervoer.</p>
+                <p>Meno Taxi is aangesloten bij De Geschillencommissie Taxivervoer.</p>
+                <p>Meer informatie: <a href="https://www.degeschillencommissie.nl" target="_blank" class="commission-link">www.degeschillencommissie.nl</a></p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 Meno Taxi. Alle rechten voorbehouden. &nbsp;|&nbsp;
+                <a href="privacyverklaring.html" style="color:var(--primary-color); text-decoration:none;">Privacyverklaring</a> &nbsp;|&nbsp;
+                <a href="algemene-voorwaarden.html" style="color:var(--primary-color); text-decoration:none;">Algemene Voorwaarden</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

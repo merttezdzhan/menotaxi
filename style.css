@@ -1,15 +1,15 @@
 :root {
     --primary-color: #e6a800;
     --primary-dark: #cc9500;
-    --dark-bg: #f4f6f9;
-    --darker-bg: #e8ecf2;
-    --light-text: #1a1a2e;
-    --gray-text: #5a6475;
-    --card-bg: #ffffff;
-    --border-color: #dde2ea;
+    --dark-bg: #0d0d0d;
+    --darker-bg: #111111;
+    --light-text: #f0f0f0;
+    --gray-text: #a0a8bb;
+    --card-bg: #1a1a2e;
+    --border-color: #2a2a4e;
     --header-bg: #ffffff;
-    --hero-overlay-start: rgba(244, 246, 249, 0.85);
-    --hero-overlay-end: rgba(232, 236, 242, 0.90);
+    --hero-overlay-start: rgba(10, 10, 20, 0.80);
+    --hero-overlay-end: rgba(0, 0, 0, 0.85);
 }
 
 * {
@@ -69,6 +69,7 @@ body {
     font-weight: 700;
     letter-spacing: 1px;
     color: #1a1a2e;
+    /* stays dark since header is white */
 }
 
 .nav {
@@ -78,6 +79,7 @@ body {
 
 .nav a {
     color: #1a1a2e;
+    /* stays dark since header is white */
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s;
@@ -110,7 +112,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: linear-gradient(rgba(244, 246, 249, 0.82), rgba(232, 236, 242, 0.88)), url('https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?q=80&w=2070&auto=format&fit=crop') no-repeat center center/cover;
+    background: linear-gradient(rgba(10, 10, 20, 0.80), rgba(0, 0, 0, 0.87)), url('https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?q=80&w=2070&auto=format&fit=crop') no-repeat center center/cover;
     padding-top: 80px;
 }
 
@@ -118,13 +120,13 @@ body {
     font-size: 4rem;
     font-weight: 700;
     margin-bottom: 20px;
-    color: #1a1a2e;
-    text-shadow: 0 1px 4px rgba(255,255,255,0.6);
+    color: #ffffff;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.8);
 }
 
 .hero-content p {
     font-size: 1.5rem;
-    color: #3a4255;
+    color: #d0d8e8;
     margin-bottom: 40px;
 }
 
@@ -164,19 +166,19 @@ body {
 }
 
 .service-card {
-    background-color: #ffffff;
+    background-color: var(--card-bg);
     padding: 40px 20px;
     border-radius: 12px;
     border: 1px solid var(--border-color);
     transition: transform 0.3s, border-color 0.3s, box-shadow 0.3s;
     cursor: pointer;
-    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+    box-shadow: 0 2px 12px rgba(0,0,0,0.3);
 }
 
 .service-card:hover {
     transform: translateY(-5px);
     border-color: var(--primary-color);
-    box-shadow: 0 8px 24px rgba(230,168,0,0.15);
+    box-shadow: 0 8px 24px rgba(230,168,0,0.25);
 }
 
 .service-card i {
@@ -188,7 +190,7 @@ body {
 .service-card h3 {
     font-size: 1.5rem;
     margin-bottom: 15px;
-    color: #1a1a2e;
+    color: var(--light-text);
 }
 
 .service-card p {
@@ -210,7 +212,7 @@ body {
 }
 
 .modal-content {
-    background-color: #ffffff;
+    background-color: var(--card-bg);
     margin: 10% auto; 
     padding: 40px;
     border: 1px solid var(--border-color);
@@ -218,8 +220,8 @@ body {
     max-width: 600px;
     border-radius: 12px;
     position: relative;
-    color: #1a1a2e;
-    box-shadow: 0 8px 40px rgba(0,0,0,0.15);
+    color: var(--light-text);
+    box-shadow: 0 8px 40px rgba(0,0,0,0.6);
 }
 
 .close-modal {
@@ -283,7 +285,7 @@ body {
 }
 
 .price-card {
-    background-color: #ffffff;
+    background-color: var(--card-bg);
     padding: 25px 20px;
     border-radius: 12px;
     border: 1px solid var(--border-color);
@@ -291,19 +293,19 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
 }
 
 .price-card:hover {
     transform: translateY(-5px);
     border-color: var(--primary-color);
-    box-shadow: 0 6px 20px rgba(230,168,0,0.12);
+    box-shadow: 0 6px 20px rgba(230,168,0,0.25);
 }
 
 .route {
     font-size: 1.1rem;
     font-weight: 600;
-    color: #1a1a2e;
+    color: var(--light-text);
 }
 
 .route i {
@@ -318,7 +320,7 @@ body {
 }
 
 .contact-section {
-    background-color: #e8ecf2;
+    background-color: #111111;
     padding: 80px 20px;
     text-align: center;
 }

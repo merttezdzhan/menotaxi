@@ -10,7 +10,7 @@ const translations = {
         hero_button: "Boek via WhatsApp",
         about_title: "Over Meno Taxi",
         about_subtitle: "Uw betrouwbare partner in mobiliteit",
-        about_text: "Welkom bij Meno Taxi, uw persoonlijke taxidienst voor Utrecht en omstreken. Wij zijn een nieuw en enthousiast bedrijf dat met frisse energie en volledige toewijding klaarstaat voor u. Ons doel is eenvoudig: veilig, comfortabel en stipt personenvervoer bieden — elke rit, elke dag. Onze voertuigen zijn modern en schoon, en onze chauffeurs zijn vakkundig, representatief en klantvriendelijk. Of u nu op zoek bent naar een snelle rit naar het station, zakelijk vervoer op maat, of een ontspannen begin van uw vakantie via onze luchthavenservice; bij Meno Taxi bent u altijd in goede handen.",
+        about_text: "Welkom bij Meno Taxi, uw persoonlijke taxidienst voor Utrecht en omstreken. Wij zijn een nieuw en enthousiast bedrijf dat met frisse energie en volledige toewijding klaarstaat voor u. Ons doel is eenvoudig: veilig, comfortabel en stipt personenvervoer bieden — elke rit, elke dag. Wij bieden onze diensten aan in een stijlvolle zwarte Tesla Model Y Juniper — een volledig elektrisch, luxe voertuig dat zorgt voor een premium rijervaring. Onze chauffeurs zijn vakkundig, representatief en klantvriendelijk. Of u nu op zoek bent naar een snelle rit naar het station, zakelijk vervoer op maat, of een ontspannen begin van uw vakantie via onze luchthavenservice; bij Meno Taxi bent u altijd in goede handen.",
         services_title: "Onze Diensten",
         services_subtitle: "Wat wij u kunnen bieden",
         service_airport: "Luchthaven Vervoer",
@@ -25,6 +25,7 @@ const translations = {
         prices_title: "Vaste Prijzen",
         prices_subtitle: "Transparante tarieven voor populaire bestemmingen (Max 4 personen)",
         contact_title: "Neem Contact Op",
+        tesla_badge: "Wij rijden uitsluitend in een zwarte Tesla Model Y Juniper",
         footer_rights: "Alle rechten voorbehouden."
     },
     en: {
@@ -38,7 +39,7 @@ const translations = {
         hero_button: "Book via WhatsApp",
         about_title: "About Meno Taxi",
         about_subtitle: "Your reliable partner in mobility",
-        about_text: "Welcome to Meno Taxi, your personal taxi service in Utrecht and the surrounding area. We are a new and enthusiastic company, ready to serve you with fresh energy and full dedication. Our goal is simple: to provide safe, comfortable, and punctual passenger transport — every ride, every day. Our fleet consists of modern, clean vehicles, and our drivers are skilled, presentable, and customer-friendly. Whether you are looking for a quick ride to the station, tailored business transport, or a relaxing start to your holiday via our airport service; with Meno Taxi, you are always in good hands.",
+        about_text: "Welcome to Meno Taxi, your personal taxi service in Utrecht and the surrounding area. We are a new and enthusiastic company, ready to serve you with fresh energy and full dedication. Our goal is simple: to provide safe, comfortable, and punctual passenger transport — every ride, every day. We proudly offer our services in a sleek black Tesla Model Y Juniper — a fully electric, luxury vehicle that delivers a premium travel experience. Our drivers are skilled, presentable, and customer-friendly. Whether you are looking for a quick ride to the station, tailored business transport, or a relaxing start to your holiday via our airport service; with Meno Taxi, you are always in good hands.",
         services_title: "Our Services",
         services_subtitle: "What we can offer you",
         service_airport: "Airport Transfer",
@@ -53,6 +54,7 @@ const translations = {
         prices_title: "Fixed Prices",
         prices_subtitle: "Transparent rates for popular destinations (Max 4 persons)",
         contact_title: "Contact Us",
+        tesla_badge: "We exclusively drive a black Tesla Model Y Juniper",
         footer_rights: "All rights reserved."
     }
 };

@@ -39,8 +39,8 @@ body {
     width: 100%;
     top: 0;
     z-index: 100;
-    border-bottom: 2px solid var(--border-color);
-    box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+    border-bottom: 2px solid #dde2ea;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.15);
 }
 
 .header-content {
@@ -112,7 +112,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: linear-gradient(rgba(10, 10, 20, 0.80), rgba(0, 0, 0, 0.87)), url('https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?q=80&w=2070&auto=format&fit=crop') no-repeat center center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.70)), url('tesla.png') no-repeat center center/cover;
     padding-top: 80px;
 }
 
@@ -150,6 +150,43 @@ body {
 
 .cta-button i {
     margin-right: 10px;
+}
+
+/* About Section */
+.about-section {
+    background-color: var(--dark-bg);
+}
+
+/* Tesla Car Showcase */
+.tesla-showcase {
+    margin: 40px auto 0;
+    max-width: 800px;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 8px 40px rgba(230, 168, 0, 0.2);
+    border: 1px solid var(--border-color);
+}
+
+.tesla-showcase img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 16px;
+}
+
+.tesla-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: linear-gradient(135deg, #1a1a2e, #2a2a4e);
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 10px 22px;
+    border-radius: 50px;
+    margin-top: 25px;
+    letter-spacing: 0.5px;
 }
 
 /* Services Section */
